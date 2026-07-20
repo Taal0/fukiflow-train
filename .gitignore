@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Weights & Ultralytics downloads
+*.pt
+*.onnx
+*.engine
+
+# Training / predict outputs
+runs/
+ultralytics/
+wandb/
+
+# Local datasets (large; keep license notes in git)
+datasets/
+
+.DS_Store
+.env
+*.log
