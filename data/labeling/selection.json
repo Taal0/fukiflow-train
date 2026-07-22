@@ -1,0 +1,3621 @@
+{
+  "source": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8",
+  "seed": 42,
+  "keep_classes": [
+    1,
+    2,
+    3
+  ],
+  "max_aspect": 3.0,
+  "counts": {
+    "manga": 200,
+    "manhwa": 50,
+    "total": 250,
+    "manga_pool": 1035,
+    "manhwa_pool": 83
+  },
+  "items": [
+    {
+      "split": "train",
+      "stem": "bookworm_part4_356_jpg.rf.392dc67ceb095fe6a33cb4d09233b09e",
+      "base": "bookworm_part4_356_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_356_jpg.rf.392dc67ceb095fe6a33cb4d09233b09e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_356_jpg.rf.392dc67ceb095fe6a33cb4d09233b09e.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 28,
+      "aspect": 1.466,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_356_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_228_jpg.rf.4b8741678033dfafb59fa4fcd11bf1c8",
+      "base": "bookworm_part4_228_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_228_jpg.rf.4b8741678033dfafb59fa4fcd11bf1c8.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_228_jpg.rf.4b8741678033dfafb59fa4fcd11bf1c8.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 27,
+      "aspect": 1.466,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_228_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_229_jpg.rf.0fec8a55c97e7e73f67521f1d70b9f90",
+      "base": "bookworm_part4_229_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_229_jpg.rf.0fec8a55c97e7e73f67521f1d70b9f90.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_229_jpg.rf.0fec8a55c97e7e73f67521f1d70b9f90.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 26,
+      "aspect": 1.403,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_229_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "12_jpg.rf.7074f0f1f129356481b04e12496f68d9",
+      "base": "12_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/12_jpg.rf.7074f0f1f129356481b04e12496f68d9.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/12_jpg.rf.7074f0f1f129356481b04e12496f68d9.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 19,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__12_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "10_jpg.rf.fb6f6a960c4e06be8150608ad735c2e3",
+      "base": "10_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/10_jpg.rf.fb6f6a960c4e06be8150608ad735c2e3.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/10_jpg.rf.fb6f6a960c4e06be8150608ad735c2e3.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 18,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__10_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "15_jpg.rf.33b7ec3551fed4a4c4b55b5a9136433a",
+      "base": "15_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/15_jpg.rf.33b7ec3551fed4a4c4b55b5a9136433a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/15_jpg.rf.33b7ec3551fed4a4c4b55b5a9136433a.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 18,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__15_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_293_jpg.rf.df557c04891dbf3bb79926e2ce27e6bf",
+      "base": "bookworm_part4_293_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_293_jpg.rf.df557c04891dbf3bb79926e2ce27e6bf.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_293_jpg.rf.df557c04891dbf3bb79926e2ce27e6bf.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 18,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_293_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "05_jpg.rf.d9cc23336011075167decd5657842189",
+      "base": "05_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/05_jpg.rf.d9cc23336011075167decd5657842189.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/05_jpg.rf.d9cc23336011075167decd5657842189.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 17,
+      "aspect": 1.491,
+      "group": "manga",
+      "dest": "manga__05_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "06_jpg.rf.c4bf916a62638120294e61fa1e277b35",
+      "base": "06_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/06_jpg.rf.c4bf916a62638120294e61fa1e277b35.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/06_jpg.rf.c4bf916a62638120294e61fa1e277b35.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 17,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__06_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "09_jpg.rf.e5bac5ee0229f26492da3afcc2ebde8d",
+      "base": "09_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/09_jpg.rf.e5bac5ee0229f26492da3afcc2ebde8d.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/09_jpg.rf.e5bac5ee0229f26492da3afcc2ebde8d.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 15,
+      "aspect": 1.495,
+      "group": "manga",
+      "dest": "manga__09_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "11_jpg.rf.1a47f881f8371e3276bbeb87cd5949c3",
+      "base": "11_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/11_jpg.rf.1a47f881f8371e3276bbeb87cd5949c3.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/11_jpg.rf.1a47f881f8371e3276bbeb87cd5949c3.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 15,
+      "aspect": 1.491,
+      "group": "manga",
+      "dest": "manga__11_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "13_jpg.rf.0f1b37975941f19187c1c5fbac0663e0",
+      "base": "13_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/13_jpg.rf.0f1b37975941f19187c1c5fbac0663e0.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/13_jpg.rf.0f1b37975941f19187c1c5fbac0663e0.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 15,
+      "aspect": 1.571,
+      "group": "manga",
+      "dest": "manga__13_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "16_jpg.rf.011cf5d80a1667e0a7a47568491be3e3",
+      "base": "16_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/16_jpg.rf.011cf5d80a1667e0a7a47568491be3e3.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/16_jpg.rf.011cf5d80a1667e0a7a47568491be3e3.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 15,
+      "aspect": 1.571,
+      "group": "manga",
+      "dest": "manga__16_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "26_jpg.rf.b0e14a81d7a53255d63715093efd04d8",
+      "base": "26_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/26_jpg.rf.b0e14a81d7a53255d63715093efd04d8.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/26_jpg.rf.b0e14a81d7a53255d63715093efd04d8.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 15,
+      "aspect": 1.495,
+      "group": "manga",
+      "dest": "manga__26_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "27_jpg.rf.52cd5a6c3eeb1cb655b83d61eadf39f9",
+      "base": "27_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/27_jpg.rf.52cd5a6c3eeb1cb655b83d61eadf39f9.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/27_jpg.rf.52cd5a6c3eeb1cb655b83d61eadf39f9.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 15,
+      "aspect": 1.495,
+      "group": "manga",
+      "dest": "manga__27_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "14_jpg.rf.de63c188678a2da6a28ec5e44814d405",
+      "base": "14_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/14_jpg.rf.de63c188678a2da6a28ec5e44814d405.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/14_jpg.rf.de63c188678a2da6a28ec5e44814d405.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 14,
+      "aspect": 1.44,
+      "group": "manga",
+      "dest": "manga__14_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "29_jpg.rf.c5edd989531e2526a716acc95bbe9780",
+      "base": "29_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/29_jpg.rf.c5edd989531e2526a716acc95bbe9780.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/29_jpg.rf.c5edd989531e2526a716acc95bbe9780.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 14,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__29_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "37_jpg.rf.b996d13b2962e8e0a4a3ab6a61967a25",
+      "base": "37_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/37_jpg.rf.b996d13b2962e8e0a4a3ab6a61967a25.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/37_jpg.rf.b996d13b2962e8e0a4a3ab6a61967a25.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 14,
+      "aspect": 1.495,
+      "group": "manga",
+      "dest": "manga__37_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "40_jpg.rf.0b9dc25b90e7c754ce772ebdf7b0edb1",
+      "base": "40_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/40_jpg.rf.0b9dc25b90e7c754ce772ebdf7b0edb1.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/40_jpg.rf.0b9dc25b90e7c754ce772ebdf7b0edb1.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 14,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__40_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "41_jpg.rf.e14fa406706a1ada270a3edefd2448f9",
+      "base": "41_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/41_jpg.rf.e14fa406706a1ada270a3edefd2448f9.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/41_jpg.rf.e14fa406706a1ada270a3edefd2448f9.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 14,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__41_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "43_jpg.rf.236fb6920dc32af92e0cd02019f98179",
+      "base": "43_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/43_jpg.rf.236fb6920dc32af92e0cd02019f98179.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/43_jpg.rf.236fb6920dc32af92e0cd02019f98179.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 14,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__43_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "04_jpg.rf.1061320503369cdf92eeb57dde5ef1a5",
+      "base": "04_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/04_jpg.rf.1061320503369cdf92eeb57dde5ef1a5.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/04_jpg.rf.1061320503369cdf92eeb57dde5ef1a5.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 13,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__04_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "08_jpg.rf.775905ea0d4fc26223c7ee7fb19f23a0",
+      "base": "08_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/08_jpg.rf.775905ea0d4fc26223c7ee7fb19f23a0.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/08_jpg.rf.775905ea0d4fc26223c7ee7fb19f23a0.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 13,
+      "aspect": 1.571,
+      "group": "manga",
+      "dest": "manga__08_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "17_jpg.rf.a97269cb044f595218e031a1ec1590bb",
+      "base": "17_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/17_jpg.rf.a97269cb044f595218e031a1ec1590bb.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/17_jpg.rf.a97269cb044f595218e031a1ec1590bb.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 13,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__17_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "33_jpg.rf.20ec4eebf103dce3f3e18d3a27edce56",
+      "base": "33_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/33_jpg.rf.20ec4eebf103dce3f3e18d3a27edce56.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/33_jpg.rf.20ec4eebf103dce3f3e18d3a27edce56.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 13,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__33_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "34_jpg.rf.22b931b84d65c1b927913e67f9dea70c",
+      "base": "34_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/34_jpg.rf.22b931b84d65c1b927913e67f9dea70c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/34_jpg.rf.22b931b84d65c1b927913e67f9dea70c.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 13,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__34_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "42_jpg.rf.e83c1eaa238ba3d3d3b0f84f331b1d38",
+      "base": "42_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/42_jpg.rf.e83c1eaa238ba3d3d3b0f84f331b1d38.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/42_jpg.rf.e83c1eaa238ba3d3d3b0f84f331b1d38.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 13,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__42_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "03_jpg.rf.ac2241a27f38659224e789f81082804a",
+      "base": "03_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/03_jpg.rf.ac2241a27f38659224e789f81082804a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/03_jpg.rf.ac2241a27f38659224e789f81082804a.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__03_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "07_jpg.rf.01dff575bc8e3e2ccc48807a752987d4",
+      "base": "07_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/07_jpg.rf.01dff575bc8e3e2ccc48807a752987d4.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/07_jpg.rf.01dff575bc8e3e2ccc48807a752987d4.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.571,
+      "group": "manga",
+      "dest": "manga__07_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "18_jpg.rf.855740e2daa5501a28cfa815e64e5c5a",
+      "base": "18_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/18_jpg.rf.855740e2daa5501a28cfa815e64e5c5a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/18_jpg.rf.855740e2daa5501a28cfa815e64e5c5a.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__18_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "19_jpg.rf.3f7410bb2d7f59815cdd524e014a9243",
+      "base": "19_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/19_jpg.rf.3f7410bb2d7f59815cdd524e014a9243.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/19_jpg.rf.3f7410bb2d7f59815cdd524e014a9243.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.571,
+      "group": "manga",
+      "dest": "manga__19_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "24_jpg.rf.95a99746ded5c6ba17bb8558ccf5d826",
+      "base": "24_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/24_jpg.rf.95a99746ded5c6ba17bb8558ccf5d826.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/24_jpg.rf.95a99746ded5c6ba17bb8558ccf5d826.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__24_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "28_jpg.rf.9c0dd095fdbca77a951e69db7338d06b",
+      "base": "28_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/28_jpg.rf.9c0dd095fdbca77a951e69db7338d06b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/28_jpg.rf.9c0dd095fdbca77a951e69db7338d06b.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.495,
+      "group": "manga",
+      "dest": "manga__28_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "31_jpg.rf.0154a2675943160db4d9396e5065274f",
+      "base": "31_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/31_jpg.rf.0154a2675943160db4d9396e5065274f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/31_jpg.rf.0154a2675943160db4d9396e5065274f.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__31_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "32_jpg.rf.c00ec8652d9ff80f5a1a0014565ffe07",
+      "base": "32_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/32_jpg.rf.c00ec8652d9ff80f5a1a0014565ffe07.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/32_jpg.rf.c00ec8652d9ff80f5a1a0014565ffe07.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__32_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "38_jpg.rf.c1756fd5a6de266d69257cc376d525b8",
+      "base": "38_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/38_jpg.rf.c1756fd5a6de266d69257cc376d525b8.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/38_jpg.rf.c1756fd5a6de266d69257cc376d525b8.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__38_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "39_jpg.rf.a996e55f50600f47042cf5c8659d1f8f",
+      "base": "39_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/39_jpg.rf.a996e55f50600f47042cf5c8659d1f8f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/39_jpg.rf.a996e55f50600f47042cf5c8659d1f8f.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__39_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "7_jpg.rf.84cdcbb321010aa94f2f9551887e9ee5",
+      "base": "7_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/7_jpg.rf.84cdcbb321010aa94f2f9551887e9ee5.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/7_jpg.rf.84cdcbb321010aa94f2f9551887e9ee5.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 12,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__7_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "02_jpg.rf.0218fdd0b8039673f722486cc7980161",
+      "base": "02_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/02_jpg.rf.0218fdd0b8039673f722486cc7980161.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/02_jpg.rf.0218fdd0b8039673f722486cc7980161.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 11,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__02_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "20_jpg.rf.c3a31c25b2fc7e00bdc80e847bf4c2bf",
+      "base": "20_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/20_jpg.rf.c3a31c25b2fc7e00bdc80e847bf4c2bf.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/20_jpg.rf.c3a31c25b2fc7e00bdc80e847bf4c2bf.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 11,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__20_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "23_jpg.rf.584a087823f0f95bfa402ebcb57939c2",
+      "base": "23_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/23_jpg.rf.584a087823f0f95bfa402ebcb57939c2.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/23_jpg.rf.584a087823f0f95bfa402ebcb57939c2.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 11,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__23_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "25_jpg.rf.b1bd168a2bb86d063e6a896b3e5425dd",
+      "base": "25_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/25_jpg.rf.b1bd168a2bb86d063e6a896b3e5425dd.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/25_jpg.rf.b1bd168a2bb86d063e6a896b3e5425dd.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 11,
+      "aspect": 1.495,
+      "group": "manga",
+      "dest": "manga__25_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_240_jpg.rf.3d5ca99e0cbe296fb4ab32d439cbd4b1",
+      "base": "bookworm_part4_240_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_240_jpg.rf.3d5ca99e0cbe296fb4ab32d439cbd4b1.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_240_jpg.rf.3d5ca99e0cbe296fb4ab32d439cbd4b1.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 11,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_240_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "20_png.rf.25b321f5c0065bfa4b6c181d0661cb5b",
+      "base": "20_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/20_png.rf.25b321f5c0065bfa4b6c181d0661cb5b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/20_png.rf.25b321f5c0065bfa4b6c181d0661cb5b.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 10,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__20_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "21_jpg.rf.50967758e4538ca850ef695b7ec206d1",
+      "base": "21_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/21_jpg.rf.50967758e4538ca850ef695b7ec206d1.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/21_jpg.rf.50967758e4538ca850ef695b7ec206d1.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 10,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__21_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "30_jpg.rf.3bb2e6a03de46d1f9a032140b8a5baa2",
+      "base": "30_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/30_jpg.rf.3bb2e6a03de46d1f9a032140b8a5baa2.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/30_jpg.rf.3bb2e6a03de46d1f9a032140b8a5baa2.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 10,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__30_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "35_jpg.rf.1f9c62819e5ec420584ab8c664bac893",
+      "base": "35_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/35_jpg.rf.1f9c62819e5ec420584ab8c664bac893.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/35_jpg.rf.1f9c62819e5ec420584ab8c664bac893.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 10,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__35_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "36_jpg.rf.50c056073cb8769ad65838bcec057dae",
+      "base": "36_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/36_jpg.rf.50c056073cb8769ad65838bcec057dae.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/36_jpg.rf.50c056073cb8769ad65838bcec057dae.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 10,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__36_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "44_jpg.rf.e5bb2140d48929893f0971c354c60c1f",
+      "base": "44_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/44_jpg.rf.e5bb2140d48929893f0971c354c60c1f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/44_jpg.rf.e5bb2140d48929893f0971c354c60c1f.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 10,
+      "aspect": 1.495,
+      "group": "manga",
+      "dest": "manga__44_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "5_jpg.rf.b3778bd9023c4801e379c0d6f454afee",
+      "base": "5_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/5_jpg.rf.b3778bd9023c4801e379c0d6f454afee.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/5_jpg.rf.b3778bd9023c4801e379c0d6f454afee.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 10,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__5_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "01_jpg.rf.2d12b7639e4f8926bfb43cdbdb4c3342",
+      "base": "01_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/01_jpg.rf.2d12b7639e4f8926bfb43cdbdb4c3342.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/01_jpg.rf.2d12b7639e4f8926bfb43cdbdb4c3342.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 9,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__01_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "1_jpg.rf.146ca358f62707394e69a2e0da2b0a10",
+      "base": "1_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/1_jpg.rf.146ca358f62707394e69a2e0da2b0a10.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/1_jpg.rf.146ca358f62707394e69a2e0da2b0a10.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 9,
+      "aspect": 1.571,
+      "group": "manga",
+      "dest": "manga__1_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "29_png.rf.0c32963d98daf5de68ff93f68e80a5f3",
+      "base": "29_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/29_png.rf.0c32963d98daf5de68ff93f68e80a5f3.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/29_png.rf.0c32963d98daf5de68ff93f68e80a5f3.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 9,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__29_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "3_jpg.rf.dc5a2131219dc974dd0ada0179c99876",
+      "base": "3_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/3_jpg.rf.dc5a2131219dc974dd0ada0179c99876.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/3_jpg.rf.dc5a2131219dc974dd0ada0179c99876.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 9,
+      "aspect": 1.431,
+      "group": "manga",
+      "dest": "manga__3_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_267_jpg.rf.16c62cd25fb0a562193a62d46a94525f",
+      "base": "bookworm_part4_267_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_267_jpg.rf.16c62cd25fb0a562193a62d46a94525f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_267_jpg.rf.16c62cd25fb0a562193a62d46a94525f.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 9,
+      "aspect": 1.333,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_267_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_357_jpg.rf.37b773bb533c3979a520d5205d56d958",
+      "base": "bookworm_part4_357_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_357_jpg.rf.37b773bb533c3979a520d5205d56d958.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_357_jpg.rf.37b773bb533c3979a520d5205d56d958.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 9,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_357_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "2_jpg.rf.90beb004cb4dd49d838c22c456c62066",
+      "base": "2_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/2_jpg.rf.90beb004cb4dd49d838c22c456c62066.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/2_jpg.rf.90beb004cb4dd49d838c22c456c62066.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 8,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__2_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "4_jpg.rf.1010ff47615d410406b85e27c2105369",
+      "base": "4_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/4_jpg.rf.1010ff47615d410406b85e27c2105369.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/4_jpg.rf.1010ff47615d410406b85e27c2105369.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 8,
+      "aspect": 1.565,
+      "group": "manga",
+      "dest": "manga__4_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "66310aeb-a7e3-4613-95e5-ae8056e7ef5d_jpg.rf.db534b4f0b8643db48c47709c285bec6",
+      "base": "66310aeb-a7e3-4613-95e5-ae8056e7ef5d_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/66310aeb-a7e3-4613-95e5-ae8056e7ef5d_jpg.rf.db534b4f0b8643db48c47709c285bec6.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/66310aeb-a7e3-4613-95e5-ae8056e7ef5d_jpg.rf.db534b4f0b8643db48c47709c285bec6.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 8,
+      "aspect": 1.412,
+      "group": "manga",
+      "dest": "manga__66310aeb-a7e3-4613-95e5-ae8056e7ef5d_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "6_jpg.rf.a43c4377971b47dc6650597eb96aff38",
+      "base": "6_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/6_jpg.rf.a43c4377971b47dc6650597eb96aff38.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/6_jpg.rf.a43c4377971b47dc6650597eb96aff38.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 8,
+      "aspect": 1.435,
+      "group": "manga",
+      "dest": "manga__6_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_10_jpg.rf.e4bb97c8fe1b4af0c7165e63e366d8c2",
+      "base": "bookworm_part4_10_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_10_jpg.rf.e4bb97c8fe1b4af0c7165e63e366d8c2.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_10_jpg.rf.e4bb97c8fe1b4af0c7165e63e366d8c2.txt",
+      "classes": [
+        1
+      ],
+      "kept_objects": 8,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_10_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_316_jpg.rf.919bc7a241067cd92999f05af10a90c5",
+      "base": "bookworm_part4_316_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_316_jpg.rf.919bc7a241067cd92999f05af10a90c5.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_316_jpg.rf.919bc7a241067cd92999f05af10a90c5.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 8,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_316_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_340_jpg.rf.b0d89c68b15c42dac2a5a63371934689",
+      "base": "bookworm_part4_340_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_340_jpg.rf.b0d89c68b15c42dac2a5a63371934689.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_340_jpg.rf.b0d89c68b15c42dac2a5a63371934689.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 8,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_340_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "06_png.rf.b778b46a6db33a0e549942c42faf900b",
+      "base": "06_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/06_png.rf.b778b46a6db33a0e549942c42faf900b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/06_png.rf.b778b46a6db33a0e549942c42faf900b.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__06_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "07_png.rf.cfbedc0637ac815f5758d7f99dcec1c7",
+      "base": "07_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/07_png.rf.cfbedc0637ac815f5758d7f99dcec1c7.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/07_png.rf.cfbedc0637ac815f5758d7f99dcec1c7.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__07_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "09_png.rf.1bec21b72d4f0d95eaa694351b87d477",
+      "base": "09_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/09_png.rf.1bec21b72d4f0d95eaa694351b87d477.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/09_png.rf.1bec21b72d4f0d95eaa694351b87d477.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__09_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "11_png.rf.407727e763e7f65f90805c8875dbd04f",
+      "base": "11_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/11_png.rf.407727e763e7f65f90805c8875dbd04f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/11_png.rf.407727e763e7f65f90805c8875dbd04f.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__11_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "19_png.rf.b57b30100dd398efa27ab051b8376bd3",
+      "base": "19_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/19_png.rf.b57b30100dd398efa27ab051b8376bd3.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/19_png.rf.b57b30100dd398efa27ab051b8376bd3.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__19_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "22_jpg.rf.215a306bbc74416f8139fdd441295e4b",
+      "base": "22_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/22_jpg.rf.215a306bbc74416f8139fdd441295e4b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/22_jpg.rf.215a306bbc74416f8139fdd441295e4b.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 7,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__22_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "30_png.rf.7ce0e003bb8d54a16f5e72fb3a2c8415",
+      "base": "30_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/30_png.rf.7ce0e003bb8d54a16f5e72fb3a2c8415.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/30_png.rf.7ce0e003bb8d54a16f5e72fb3a2c8415.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__30_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "32_png.rf.d2e76867695244e97cda85ca47a43ca4",
+      "base": "32_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/32_png.rf.d2e76867695244e97cda85ca47a43ca4.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/32_png.rf.d2e76867695244e97cda85ca47a43ca4.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__32_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "33_png.rf.a3914408b13fdb70778fad8a668f2f8b",
+      "base": "33_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/33_png.rf.a3914408b13fdb70778fad8a668f2f8b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/33_png.rf.a3914408b13fdb70778fad8a668f2f8b.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__33_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "36_png.rf.0bd5b597aac156fe2638cbb3238912ea",
+      "base": "36_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/36_png.rf.0bd5b597aac156fe2638cbb3238912ea.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/36_png.rf.0bd5b597aac156fe2638cbb3238912ea.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__36_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_9_jpg.rf.faed6d47e0049277f319e2e9a0aa3c1c",
+      "base": "bookworm_part4_9_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_9_jpg.rf.faed6d47e0049277f319e2e9a0aa3c1c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_9_jpg.rf.faed6d47e0049277f319e2e9a0aa3c1c.txt",
+      "classes": [
+        1
+      ],
+      "kept_objects": 7,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_9_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "15_png.rf.4f17bd51f00ce82e5f2b248e033faadb",
+      "base": "15_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/15_png.rf.4f17bd51f00ce82e5f2b248e033faadb.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/15_png.rf.4f17bd51f00ce82e5f2b248e033faadb.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__15_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "17_png.rf.797d5a3c0a6120abf34d634d28e58267",
+      "base": "17_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/17_png.rf.797d5a3c0a6120abf34d634d28e58267.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/17_png.rf.797d5a3c0a6120abf34d634d28e58267.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__17_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "21_png.rf.d03825eeb53722273f5befa803da7127",
+      "base": "21_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/21_png.rf.d03825eeb53722273f5befa803da7127.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/21_png.rf.d03825eeb53722273f5befa803da7127.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__21_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "24_png.rf.cb8579bc14c4031eac27fe0b787118b1",
+      "base": "24_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/24_png.rf.cb8579bc14c4031eac27fe0b787118b1.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/24_png.rf.cb8579bc14c4031eac27fe0b787118b1.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__24_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "37_png.rf.3bff58226973925e481ccd487c14611a",
+      "base": "37_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/37_png.rf.3bff58226973925e481ccd487c14611a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/37_png.rf.3bff58226973925e481ccd487c14611a.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__37_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "38_png.rf.acc62b301842c8caf8d55c549c14098d",
+      "base": "38_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/38_png.rf.acc62b301842c8caf8d55c549c14098d.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/38_png.rf.acc62b301842c8caf8d55c549c14098d.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__38_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "41_png.rf.082634af9fd61f391183f23a8ce7fd38",
+      "base": "41_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/41_png.rf.082634af9fd61f391183f23a8ce7fd38.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/41_png.rf.082634af9fd61f391183f23a8ce7fd38.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__41_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_205_jpg.rf.23a3804813dd5b36dddaa1344b5f8724",
+      "base": "bookworm_part4_205_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_205_jpg.rf.23a3804813dd5b36dddaa1344b5f8724.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_205_jpg.rf.23a3804813dd5b36dddaa1344b5f8724.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_205_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_22_jpg.rf.42f3557e8ede2a4f93bdc1b4ebc29210",
+      "base": "bookworm_part4_22_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_22_jpg.rf.42f3557e8ede2a4f93bdc1b4ebc29210.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_22_jpg.rf.42f3557e8ede2a4f93bdc1b4ebc29210.txt",
+      "classes": [
+        1
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_22_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_332_jpg.rf.b266aa77dd50b26d50d089a1bc8bbe1f",
+      "base": "bookworm_part4_332_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_332_jpg.rf.b266aa77dd50b26d50d089a1bc8bbe1f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_332_jpg.rf.b266aa77dd50b26d50d089a1bc8bbe1f.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_332_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_6_jpg.rf.9082f7890528ce3f9746644fb17b3cb2",
+      "base": "bookworm_part4_6_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_6_jpg.rf.9082f7890528ce3f9746644fb17b3cb2.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_6_jpg.rf.9082f7890528ce3f9746644fb17b3cb2.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_6_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_8_jpg.rf.a40296c461805509dcbcd1adb4be425e",
+      "base": "bookworm_part4_8_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_8_jpg.rf.a40296c461805509dcbcd1adb4be425e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_8_jpg.rf.a40296c461805509dcbcd1adb4be425e.txt",
+      "classes": [
+        1
+      ],
+      "kept_objects": 6,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_8_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "04_png.rf.1d852797c98ea2d960ebd1b81b71f2da",
+      "base": "04_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/04_png.rf.1d852797c98ea2d960ebd1b81b71f2da.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/04_png.rf.1d852797c98ea2d960ebd1b81b71f2da.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__04_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "05_png.rf.25b69547e9de94fb396309dbee877818",
+      "base": "05_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/05_png.rf.25b69547e9de94fb396309dbee877818.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/05_png.rf.25b69547e9de94fb396309dbee877818.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__05_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "08_png.rf.79f05c89c00db00c63a397c9cb21c4bc",
+      "base": "08_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/08_png.rf.79f05c89c00db00c63a397c9cb21c4bc.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/08_png.rf.79f05c89c00db00c63a397c9cb21c4bc.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__08_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "10_png.rf.e3592504d5aff0f737523bc6718b1cda",
+      "base": "10_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/10_png.rf.e3592504d5aff0f737523bc6718b1cda.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/10_png.rf.e3592504d5aff0f737523bc6718b1cda.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__10_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "13_png.rf.08d419dfee4c484072d3361def9d2678",
+      "base": "13_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/13_png.rf.08d419dfee4c484072d3361def9d2678.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/13_png.rf.08d419dfee4c484072d3361def9d2678.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__13_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "16_png.rf.2d2f896e5aced91af53b3550a9baf695",
+      "base": "16_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/16_png.rf.2d2f896e5aced91af53b3550a9baf695.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/16_png.rf.2d2f896e5aced91af53b3550a9baf695.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__16_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "26_png.rf.e54fa712ce8b64e484c15b06e6594c78",
+      "base": "26_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/26_png.rf.e54fa712ce8b64e484c15b06e6594c78.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/26_png.rf.e54fa712ce8b64e484c15b06e6594c78.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__26_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "27_png.rf.0e5008e1036ec0d626fc7395991b8226",
+      "base": "27_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/27_png.rf.0e5008e1036ec0d626fc7395991b8226.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/27_png.rf.0e5008e1036ec0d626fc7395991b8226.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__27_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "28_png.rf.ddbd11916f512245382a01d9d2cff4b6",
+      "base": "28_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/28_png.rf.ddbd11916f512245382a01d9d2cff4b6.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/28_png.rf.ddbd11916f512245382a01d9d2cff4b6.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__28_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_11_jpg.rf.bd33d67f6fe1dd36b4797dd7ec685fab",
+      "base": "bookworm_part4_11_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_11_jpg.rf.bd33d67f6fe1dd36b4797dd7ec685fab.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_11_jpg.rf.bd33d67f6fe1dd36b4797dd7ec685fab.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_11_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_334_jpg.rf.4f4f241a67f70ba7c70d2f90aaf4a133",
+      "base": "bookworm_part4_334_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_334_jpg.rf.4f4f241a67f70ba7c70d2f90aaf4a133.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_334_jpg.rf.4f4f241a67f70ba7c70d2f90aaf4a133.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_334_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_355_jpg.rf.61fcc36df94262d9862d65974713fc5f",
+      "base": "bookworm_part4_355_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_355_jpg.rf.61fcc36df94262d9862d65974713fc5f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_355_jpg.rf.61fcc36df94262d9862d65974713fc5f.txt",
+      "classes": [
+        1
+      ],
+      "kept_objects": 5,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_355_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "01_png.rf.dc1efc3b302140d6a05c4559a1c2038b",
+      "base": "01_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/01_png.rf.dc1efc3b302140d6a05c4559a1c2038b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/01_png.rf.dc1efc3b302140d6a05c4559a1c2038b.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 4,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__01_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "18_png.rf.2b14a0b20db50c58bd307549d194f70e",
+      "base": "18_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/18_png.rf.2b14a0b20db50c58bd307549d194f70e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/18_png.rf.2b14a0b20db50c58bd307549d194f70e.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 4,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__18_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "39_png.rf.8ecf94b99837720e3591187ff80e5bf8",
+      "base": "39_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/39_png.rf.8ecf94b99837720e3591187ff80e5bf8.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/39_png.rf.8ecf94b99837720e3591187ff80e5bf8.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__39_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_282_jpg.rf.fa20379e7180b6f5b2c610b244ae3038",
+      "base": "bookworm_part4_282_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_282_jpg.rf.fa20379e7180b6f5b2c610b244ae3038.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_282_jpg.rf.fa20379e7180b6f5b2c610b244ae3038.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_282_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_324_jpg.rf.0e2f5a442e74fd3c7f94b8da12fd1883",
+      "base": "bookworm_part4_324_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_324_jpg.rf.0e2f5a442e74fd3c7f94b8da12fd1883.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_324_jpg.rf.0e2f5a442e74fd3c7f94b8da12fd1883.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_324_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_79_jpg.rf.0d1ec437bd5f1bbbe3dcfb9fb0567b00",
+      "base": "bookworm_part4_79_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_79_jpg.rf.0d1ec437bd5f1bbbe3dcfb9fb0567b00.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_79_jpg.rf.0d1ec437bd5f1bbbe3dcfb9fb0567b00.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_79_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_310_jpg.rf.68d57613eab065169dbc7f80edf77c3c",
+      "base": "bookworm_part4_310_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_310_jpg.rf.68d57613eab065169dbc7f80edf77c3c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_310_jpg.rf.68d57613eab065169dbc7f80edf77c3c.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_310_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "9_jpg.rf.7a51455446464d4ecf0109d46c83c3ed",
+      "base": "9_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/9_jpg.rf.7a51455446464d4ecf0109d46c83c3ed.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/9_jpg.rf.7a51455446464d4ecf0109d46c83c3ed.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__9_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_317_jpg.rf.cb75579ac092f46fbe6a4825ad694969",
+      "base": "bookworm_part4_317_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_317_jpg.rf.cb75579ac092f46fbe6a4825ad694969.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_317_jpg.rf.cb75579ac092f46fbe6a4825ad694969.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_317_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_305_jpg.rf.558dd1c01829bfd300cc72017fefe1ea",
+      "base": "bookworm_part4_305_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_305_jpg.rf.558dd1c01829bfd300cc72017fefe1ea.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_305_jpg.rf.558dd1c01829bfd300cc72017fefe1ea.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_305_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_327_jpg.rf.b9f6106ec0f8af8ec257b4ba884f7d4f",
+      "base": "bookworm_part4_327_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_327_jpg.rf.b9f6106ec0f8af8ec257b4ba884f7d4f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_327_jpg.rf.b9f6106ec0f8af8ec257b4ba884f7d4f.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_327_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_55_jpg.rf.097960013c2586b65c3477380d7bb4e0",
+      "base": "bookworm_part4_55_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_55_jpg.rf.097960013c2586b65c3477380d7bb4e0.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_55_jpg.rf.097960013c2586b65c3477380d7bb4e0.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_55_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_372_jpg.rf.773e0f12b78fc20db5570a71e0ee1f91",
+      "base": "bookworm_part4_372_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_372_jpg.rf.773e0f12b78fc20db5570a71e0ee1f91.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_372_jpg.rf.773e0f12b78fc20db5570a71e0ee1f91.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_372_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_259_jpg.rf.55ec37de6052b0fdd5afb3362438f9b5",
+      "base": "bookworm_part4_259_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_259_jpg.rf.55ec37de6052b0fdd5afb3362438f9b5.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_259_jpg.rf.55ec37de6052b0fdd5afb3362438f9b5.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_259_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_307_jpg.rf.e751906cef82d5c830bc891d5be38a1f",
+      "base": "bookworm_part4_307_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_307_jpg.rf.e751906cef82d5c830bc891d5be38a1f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_307_jpg.rf.e751906cef82d5c830bc891d5be38a1f.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_307_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_157_jpg.rf.30f7c2be6fcbc4345e8b0c2fbe57e05a",
+      "base": "bookworm_part4_157_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_157_jpg.rf.30f7c2be6fcbc4345e8b0c2fbe57e05a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_157_jpg.rf.30f7c2be6fcbc4345e8b0c2fbe57e05a.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_157_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_279_jpg.rf.9e27414aeb5014b64a27b005143822e4",
+      "base": "bookworm_part4_279_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_279_jpg.rf.9e27414aeb5014b64a27b005143822e4.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_279_jpg.rf.9e27414aeb5014b64a27b005143822e4.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_279_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_162_jpg.rf.476e0ca80fbda1256968e9c244c71ab3",
+      "base": "bookworm_part4_162_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_162_jpg.rf.476e0ca80fbda1256968e9c244c71ab3.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_162_jpg.rf.476e0ca80fbda1256968e9c244c71ab3.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_162_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_275_jpg.rf.b787546d441085c6dea00522396defbd",
+      "base": "bookworm_part4_275_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_275_jpg.rf.b787546d441085c6dea00522396defbd.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_275_jpg.rf.b787546d441085c6dea00522396defbd.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_275_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_329_jpg.rf.447cee6653d83822c5370136e9e13330",
+      "base": "bookworm_part4_329_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_329_jpg.rf.447cee6653d83822c5370136e9e13330.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_329_jpg.rf.447cee6653d83822c5370136e9e13330.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_329_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "25_png.rf.dc7bf4465ec903213e160c94fb460453",
+      "base": "25_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/25_png.rf.dc7bf4465ec903213e160c94fb460453.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/25_png.rf.dc7bf4465ec903213e160c94fb460453.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__25_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_222_jpg.rf.d9aa3c26950bf06e80d9924ad248342a",
+      "base": "bookworm_part4_222_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_222_jpg.rf.d9aa3c26950bf06e80d9924ad248342a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_222_jpg.rf.d9aa3c26950bf06e80d9924ad248342a.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_222_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "35_png.rf.b9671b253e7a1dc581f3ee05aae6aa9b",
+      "base": "35_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/35_png.rf.b9671b253e7a1dc581f3ee05aae6aa9b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/35_png.rf.b9671b253e7a1dc581f3ee05aae6aa9b.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__35_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_160_jpg.rf.c851b8fe218e1298c8d37b85eea1620b",
+      "base": "bookworm_part4_160_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_160_jpg.rf.c851b8fe218e1298c8d37b85eea1620b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_160_jpg.rf.c851b8fe218e1298c8d37b85eea1620b.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_160_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_331_jpg.rf.98d9dd594a9b096e68b751eaffe8843e",
+      "base": "bookworm_part4_331_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_331_jpg.rf.98d9dd594a9b096e68b751eaffe8843e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_331_jpg.rf.98d9dd594a9b096e68b751eaffe8843e.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_331_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_39_jpg.rf.f558f097593458979a57a5eb2fc2d498",
+      "base": "bookworm_part4_39_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_39_jpg.rf.f558f097593458979a57a5eb2fc2d498.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_39_jpg.rf.f558f097593458979a57a5eb2fc2d498.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_39_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "14_png.rf.4c116e922c92f37fbcf36e62f9ff2175",
+      "base": "14_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/14_png.rf.4c116e922c92f37fbcf36e62f9ff2175.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/14_png.rf.4c116e922c92f37fbcf36e62f9ff2175.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__14_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "23_png.rf.00e3a600cb2f55dab1b030c091c7b145",
+      "base": "23_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/23_png.rf.00e3a600cb2f55dab1b030c091c7b145.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/23_png.rf.00e3a600cb2f55dab1b030c091c7b145.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 4,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__23_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_253_jpg.rf.8aed869fae35cb64af6fe312c09102a0",
+      "base": "bookworm_part4_253_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_253_jpg.rf.8aed869fae35cb64af6fe312c09102a0.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_253_jpg.rf.8aed869fae35cb64af6fe312c09102a0.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_253_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_231_jpg.rf.b89123fd8b1df338e0cb813ad76d0ac6",
+      "base": "bookworm_part4_231_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_231_jpg.rf.b89123fd8b1df338e0cb813ad76d0ac6.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_231_jpg.rf.b89123fd8b1df338e0cb813ad76d0ac6.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_231_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "02_png.rf.b4c6d42234a74153fdd2cc67076ddbd6",
+      "base": "02_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/02_png.rf.b4c6d42234a74153fdd2cc67076ddbd6.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/02_png.rf.b4c6d42234a74153fdd2cc67076ddbd6.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__02_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_265_jpg.rf.dab310ca9675db664a45c9acc18674fb",
+      "base": "bookworm_part4_265_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_265_jpg.rf.dab310ca9675db664a45c9acc18674fb.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_265_jpg.rf.dab310ca9675db664a45c9acc18674fb.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_265_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_347_jpg.rf.37d8112c950beaa934c8a93e7d93190f",
+      "base": "bookworm_part4_347_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_347_jpg.rf.37d8112c950beaa934c8a93e7d93190f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_347_jpg.rf.37d8112c950beaa934c8a93e7d93190f.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_347_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "40_png.rf.d14fa68c7182f1da81e7c70a86665368",
+      "base": "40_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/40_png.rf.d14fa68c7182f1da81e7c70a86665368.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/40_png.rf.d14fa68c7182f1da81e7c70a86665368.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__40_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_315_jpg.rf.5c41247379ea3b5d64b012f294cfff9f",
+      "base": "bookworm_part4_315_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_315_jpg.rf.5c41247379ea3b5d64b012f294cfff9f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_315_jpg.rf.5c41247379ea3b5d64b012f294cfff9f.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_315_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_86_jpg.rf.0db7436f2a34248b34beb8332d40a347",
+      "base": "bookworm_part4_86_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_86_jpg.rf.0db7436f2a34248b34beb8332d40a347.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_86_jpg.rf.0db7436f2a34248b34beb8332d40a347.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_86_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_214_jpg.rf.c929d3a9d391f7900d23e41ec315a685",
+      "base": "bookworm_part4_214_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_214_jpg.rf.c929d3a9d391f7900d23e41ec315a685.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_214_jpg.rf.c929d3a9d391f7900d23e41ec315a685.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_214_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_300_jpg.rf.c27c71ac4adfa7c41d10243beb4ac78c",
+      "base": "bookworm_part4_300_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_300_jpg.rf.c27c71ac4adfa7c41d10243beb4ac78c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_300_jpg.rf.c27c71ac4adfa7c41d10243beb4ac78c.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_300_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_218_jpg.rf.a6ee35a6a797d242c748ff0f6239c846",
+      "base": "bookworm_part4_218_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_218_jpg.rf.a6ee35a6a797d242c748ff0f6239c846.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_218_jpg.rf.a6ee35a6a797d242c748ff0f6239c846.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_218_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_19_jpg.rf.7a650a57f055d9df06e2b30ea677b3ee",
+      "base": "bookworm_part4_19_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_19_jpg.rf.7a650a57f055d9df06e2b30ea677b3ee.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_19_jpg.rf.7a650a57f055d9df06e2b30ea677b3ee.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_19_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_152_jpg.rf.c0b931f1bd204c449e9817d63cadfc50",
+      "base": "bookworm_part4_152_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_152_jpg.rf.c0b931f1bd204c449e9817d63cadfc50.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_152_jpg.rf.c0b931f1bd204c449e9817d63cadfc50.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_152_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_299_jpg.rf.5ddafca59713e6b3592c3316c6570b16",
+      "base": "bookworm_part4_299_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_299_jpg.rf.5ddafca59713e6b3592c3316c6570b16.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_299_jpg.rf.5ddafca59713e6b3592c3316c6570b16.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_299_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_151_jpg.rf.73efc58815bc27ff4b94cec426d73c00",
+      "base": "bookworm_part4_151_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_151_jpg.rf.73efc58815bc27ff4b94cec426d73c00.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_151_jpg.rf.73efc58815bc27ff4b94cec426d73c00.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_151_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_111_jpg.rf.5918ce6450fdcf9f29e2c95211191c40",
+      "base": "bookworm_part4_111_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_111_jpg.rf.5918ce6450fdcf9f29e2c95211191c40.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_111_jpg.rf.5918ce6450fdcf9f29e2c95211191c40.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_111_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_251_jpg.rf.c9be4bd4ed647516e4aca23a0638b5d7",
+      "base": "bookworm_part4_251_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_251_jpg.rf.c9be4bd4ed647516e4aca23a0638b5d7.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_251_jpg.rf.c9be4bd4ed647516e4aca23a0638b5d7.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_251_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_351_jpg.rf.4004b73e655e9718b83a63b2f507cd45",
+      "base": "bookworm_part4_351_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_351_jpg.rf.4004b73e655e9718b83a63b2f507cd45.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_351_jpg.rf.4004b73e655e9718b83a63b2f507cd45.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_351_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_176_jpg.rf.57247a372a543abde8f8e98c8fb7392f",
+      "base": "bookworm_part4_176_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_176_jpg.rf.57247a372a543abde8f8e98c8fb7392f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_176_jpg.rf.57247a372a543abde8f8e98c8fb7392f.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_176_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_213_jpg.rf.6a629de7eea25bf288d330708bd58c65",
+      "base": "bookworm_part4_213_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_213_jpg.rf.6a629de7eea25bf288d330708bd58c65.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_213_jpg.rf.6a629de7eea25bf288d330708bd58c65.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_213_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_358_jpg.rf.85a517d1548a33381e314ff431095c98",
+      "base": "bookworm_part4_358_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_358_jpg.rf.85a517d1548a33381e314ff431095c98.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_358_jpg.rf.85a517d1548a33381e314ff431095c98.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_358_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_303_jpg.rf.83764ff57ef4e1976ee8deaabdc48c1e",
+      "base": "bookworm_part4_303_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_303_jpg.rf.83764ff57ef4e1976ee8deaabdc48c1e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_303_jpg.rf.83764ff57ef4e1976ee8deaabdc48c1e.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_303_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_348_jpg.rf.88aa91581006e37a59eaa6ba7dd09fc2",
+      "base": "bookworm_part4_348_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_348_jpg.rf.88aa91581006e37a59eaa6ba7dd09fc2.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_348_jpg.rf.88aa91581006e37a59eaa6ba7dd09fc2.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_348_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_68_jpg.rf.4e3838b3e247700db86e052fd9cb7d5a",
+      "base": "bookworm_part4_68_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_68_jpg.rf.4e3838b3e247700db86e052fd9cb7d5a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_68_jpg.rf.4e3838b3e247700db86e052fd9cb7d5a.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_68_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_50_jpg.rf.90ab00842b6a611318c978c4243a3c2c",
+      "base": "bookworm_part4_50_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_50_jpg.rf.90ab00842b6a611318c978c4243a3c2c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_50_jpg.rf.90ab00842b6a611318c978c4243a3c2c.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_50_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "03_png.rf.701b800527368d5c160c74ff8afc132e",
+      "base": "03_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/03_png.rf.701b800527368d5c160c74ff8afc132e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/03_png.rf.701b800527368d5c160c74ff8afc132e.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__03_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_118_jpg.rf.db44e81bf91ecc562de93285b785aa22",
+      "base": "bookworm_part4_118_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_118_jpg.rf.db44e81bf91ecc562de93285b785aa22.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_118_jpg.rf.db44e81bf91ecc562de93285b785aa22.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_118_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_309_jpg.rf.b4d0b20cb1ba7a274978054fc3f9aeb4",
+      "base": "bookworm_part4_309_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_309_jpg.rf.b4d0b20cb1ba7a274978054fc3f9aeb4.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_309_jpg.rf.b4d0b20cb1ba7a274978054fc3f9aeb4.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_309_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_337_jpg.rf.67847da491ff72c470e8fa7613414e64",
+      "base": "bookworm_part4_337_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_337_jpg.rf.67847da491ff72c470e8fa7613414e64.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_337_jpg.rf.67847da491ff72c470e8fa7613414e64.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_337_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_83_jpg.rf.24ac85e2acb714602d43ae0cec417adb",
+      "base": "bookworm_part4_83_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_83_jpg.rf.24ac85e2acb714602d43ae0cec417adb.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_83_jpg.rf.24ac85e2acb714602d43ae0cec417adb.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_83_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_92_jpg.rf.b34ac5d59c65bb79de87c470590de575",
+      "base": "bookworm_part4_92_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_92_jpg.rf.b34ac5d59c65bb79de87c470590de575.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_92_jpg.rf.b34ac5d59c65bb79de87c470590de575.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_92_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_31_jpg.rf.b1f785cc110bedbfdcc1e012c0063b3b",
+      "base": "bookworm_part4_31_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_31_jpg.rf.b1f785cc110bedbfdcc1e012c0063b3b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_31_jpg.rf.b1f785cc110bedbfdcc1e012c0063b3b.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_31_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "31_png.rf.309dbb3174cfd3ff11bc4bbbafbf1f4c",
+      "base": "31_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/31_png.rf.309dbb3174cfd3ff11bc4bbbafbf1f4c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/31_png.rf.309dbb3174cfd3ff11bc4bbbafbf1f4c.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 4,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__31_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_362_jpg.rf.865b61a1cd315393f4d37f04bb42a441",
+      "base": "bookworm_part4_362_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_362_jpg.rf.865b61a1cd315393f4d37f04bb42a441.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_362_jpg.rf.865b61a1cd315393f4d37f04bb42a441.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_362_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_238_jpg.rf.89f3c28eb3d74d50f49219930626dec7",
+      "base": "bookworm_part4_238_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_238_jpg.rf.89f3c28eb3d74d50f49219930626dec7.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_238_jpg.rf.89f3c28eb3d74d50f49219930626dec7.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_238_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_239_jpg.rf.851c2bff4f2b31adb0844bdc82544f9f",
+      "base": "bookworm_part4_239_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_239_jpg.rf.851c2bff4f2b31adb0844bdc82544f9f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_239_jpg.rf.851c2bff4f2b31adb0844bdc82544f9f.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_239_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_271_jpg.rf.4b33145737ad81c07c440a2f8b207ee4",
+      "base": "bookworm_part4_271_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_271_jpg.rf.4b33145737ad81c07c440a2f8b207ee4.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_271_jpg.rf.4b33145737ad81c07c440a2f8b207ee4.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_271_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_370_jpg.rf.7e956b2dbfe0bffbbd9683e09bd76eea",
+      "base": "bookworm_part4_370_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_370_jpg.rf.7e956b2dbfe0bffbbd9683e09bd76eea.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_370_jpg.rf.7e956b2dbfe0bffbbd9683e09bd76eea.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_370_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_284_jpg.rf.77e1115a5a1a0073c8f4f74ad6b350cf",
+      "base": "bookworm_part4_284_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_284_jpg.rf.77e1115a5a1a0073c8f4f74ad6b350cf.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_284_jpg.rf.77e1115a5a1a0073c8f4f74ad6b350cf.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_284_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "45_jpg.rf.3ffe55c30baf7852bca42c70ce1e9269",
+      "base": "45_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/45_jpg.rf.3ffe55c30baf7852bca42c70ce1e9269.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/45_jpg.rf.3ffe55c30baf7852bca42c70ce1e9269.txt",
+      "classes": [
+        2
+      ],
+      "kept_objects": 3,
+      "aspect": 1.436,
+      "group": "manga",
+      "dest": "manga__45_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_241_jpg.rf.719b144e0b21eb5cc794444e186c26fd",
+      "base": "bookworm_part4_241_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_241_jpg.rf.719b144e0b21eb5cc794444e186c26fd.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_241_jpg.rf.719b144e0b21eb5cc794444e186c26fd.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_241_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_266_jpg.rf.30d0e2dd2f193c9b59cf7d90b23a99dd",
+      "base": "bookworm_part4_266_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_266_jpg.rf.30d0e2dd2f193c9b59cf7d90b23a99dd.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_266_jpg.rf.30d0e2dd2f193c9b59cf7d90b23a99dd.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_266_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_147_jpg.rf.73c01aa455aa397cf276a681b5672a1c",
+      "base": "bookworm_part4_147_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_147_jpg.rf.73c01aa455aa397cf276a681b5672a1c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_147_jpg.rf.73c01aa455aa397cf276a681b5672a1c.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_147_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_40_jpg.rf.d447dc64ea3fa82619ffa26a8218b14a",
+      "base": "bookworm_part4_40_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_40_jpg.rf.d447dc64ea3fa82619ffa26a8218b14a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_40_jpg.rf.d447dc64ea3fa82619ffa26a8218b14a.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 4,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_40_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_171_jpg.rf.15fa0895d59e9f3ca15862a9c04855b7",
+      "base": "bookworm_part4_171_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_171_jpg.rf.15fa0895d59e9f3ca15862a9c04855b7.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_171_jpg.rf.15fa0895d59e9f3ca15862a9c04855b7.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_171_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_369_jpg.rf.627dd537c16688bb10c55461d134a2d2",
+      "base": "bookworm_part4_369_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_369_jpg.rf.627dd537c16688bb10c55461d134a2d2.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_369_jpg.rf.627dd537c16688bb10c55461d134a2d2.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_369_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_36_jpg.rf.8c435270548bf36a7a11b02cf87d1c56",
+      "base": "bookworm_part4_36_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_36_jpg.rf.8c435270548bf36a7a11b02cf87d1c56.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_36_jpg.rf.8c435270548bf36a7a11b02cf87d1c56.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_36_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_18_jpg.rf.42e965a247fb206b35ee61a38f586325",
+      "base": "bookworm_part4_18_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_18_jpg.rf.42e965a247fb206b35ee61a38f586325.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_18_jpg.rf.42e965a247fb206b35ee61a38f586325.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_18_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_72_jpg.rf.01fd46b904b0f20758b70f075b77fa6e",
+      "base": "bookworm_part4_72_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_72_jpg.rf.01fd46b904b0f20758b70f075b77fa6e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_72_jpg.rf.01fd46b904b0f20758b70f075b77fa6e.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_72_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_354_jpg.rf.bbe045bd8c6f1a77aa5cb654efe79f9b",
+      "base": "bookworm_part4_354_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_354_jpg.rf.bbe045bd8c6f1a77aa5cb654efe79f9b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_354_jpg.rf.bbe045bd8c6f1a77aa5cb654efe79f9b.txt",
+      "classes": [
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_354_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_58_jpg.rf.198b56e1b34ddf4642d37ce701464c69",
+      "base": "bookworm_part4_58_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_58_jpg.rf.198b56e1b34ddf4642d37ce701464c69.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_58_jpg.rf.198b56e1b34ddf4642d37ce701464c69.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_58_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_98_jpg.rf.8583bd44ac53b8bb14671148740c6cd5",
+      "base": "bookworm_part4_98_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_98_jpg.rf.8583bd44ac53b8bb14671148740c6cd5.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_98_jpg.rf.8583bd44ac53b8bb14671148740c6cd5.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_98_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_350_jpg.rf.a880f86eacb24de5e0f23eb3f682ef8a",
+      "base": "bookworm_part4_350_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_350_jpg.rf.a880f86eacb24de5e0f23eb3f682ef8a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_350_jpg.rf.a880f86eacb24de5e0f23eb3f682ef8a.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_350_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_339_jpg.rf.c21e7beaf7676a70e7c503e03d9848d5",
+      "base": "bookworm_part4_339_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_339_jpg.rf.c21e7beaf7676a70e7c503e03d9848d5.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_339_jpg.rf.c21e7beaf7676a70e7c503e03d9848d5.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_339_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_286_jpg.rf.c6598c06b6d1d903812a8664be41d35b",
+      "base": "bookworm_part4_286_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_286_jpg.rf.c6598c06b6d1d903812a8664be41d35b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_286_jpg.rf.c6598c06b6d1d903812a8664be41d35b.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_286_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_349_jpg.rf.b0e3616ea24c1a66c28d57e1a0f62b45",
+      "base": "bookworm_part4_349_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_349_jpg.rf.b0e3616ea24c1a66c28d57e1a0f62b45.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_349_jpg.rf.b0e3616ea24c1a66c28d57e1a0f62b45.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_349_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_363_jpg.rf.39a7e6f2fd6fe5879a993187c628b812",
+      "base": "bookworm_part4_363_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_363_jpg.rf.39a7e6f2fd6fe5879a993187c628b812.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_363_jpg.rf.39a7e6f2fd6fe5879a993187c628b812.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_363_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_346_jpg.rf.b06aaaefaf35aab449a51c0942b3b1d9",
+      "base": "bookworm_part4_346_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_346_jpg.rf.b06aaaefaf35aab449a51c0942b3b1d9.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_346_jpg.rf.b06aaaefaf35aab449a51c0942b3b1d9.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_346_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "22_png.rf.d37c8b413a62dde47f9e939b2d712b30",
+      "base": "22_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/22_png.rf.d37c8b413a62dde47f9e939b2d712b30.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/22_png.rf.d37c8b413a62dde47f9e939b2d712b30.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 4,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__22_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_80_jpg.rf.aa54a601079e629e16e87bea8c9ed6b5",
+      "base": "bookworm_part4_80_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_80_jpg.rf.aa54a601079e629e16e87bea8c9ed6b5.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_80_jpg.rf.aa54a601079e629e16e87bea8c9ed6b5.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_80_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_367_jpg.rf.102dfc34e5638c158a77534c99cf15ac",
+      "base": "bookworm_part4_367_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_367_jpg.rf.102dfc34e5638c158a77534c99cf15ac.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_367_jpg.rf.102dfc34e5638c158a77534c99cf15ac.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_367_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_144_jpg.rf.fe0a6c645d6c5c43e5a865a76ba6506e",
+      "base": "bookworm_part4_144_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_144_jpg.rf.fe0a6c645d6c5c43e5a865a76ba6506e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_144_jpg.rf.fe0a6c645d6c5c43e5a865a76ba6506e.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_144_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_73_jpg.rf.d6670bcd1e09e228addecb4aa0291627",
+      "base": "bookworm_part4_73_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_73_jpg.rf.d6670bcd1e09e228addecb4aa0291627.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_73_jpg.rf.d6670bcd1e09e228addecb4aa0291627.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_73_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_0_jpg.rf.75e9dc224d3b55fcdcc8a40e5379b75c",
+      "base": "bookworm_part4_0_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_0_jpg.rf.75e9dc224d3b55fcdcc8a40e5379b75c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_0_jpg.rf.75e9dc224d3b55fcdcc8a40e5379b75c.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_0_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_37_jpg.rf.8ac1c1fa8d2b64f14e18b7e1a88acc90",
+      "base": "bookworm_part4_37_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_37_jpg.rf.8ac1c1fa8d2b64f14e18b7e1a88acc90.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_37_jpg.rf.8ac1c1fa8d2b64f14e18b7e1a88acc90.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_37_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_308_jpg.rf.ce3b3e54ba7a6be60f5deaf9a98ae104",
+      "base": "bookworm_part4_308_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_308_jpg.rf.ce3b3e54ba7a6be60f5deaf9a98ae104.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_308_jpg.rf.ce3b3e54ba7a6be60f5deaf9a98ae104.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_308_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_280_jpg.rf.529fa084e93e51ed7e4d30d2cebc3ceb",
+      "base": "bookworm_part4_280_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_280_jpg.rf.529fa084e93e51ed7e4d30d2cebc3ceb.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_280_jpg.rf.529fa084e93e51ed7e4d30d2cebc3ceb.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_280_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_30_jpg.rf.6a6dd7a192f5d12831eb15702b077925",
+      "base": "bookworm_part4_30_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_30_jpg.rf.6a6dd7a192f5d12831eb15702b077925.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_30_jpg.rf.6a6dd7a192f5d12831eb15702b077925.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_30_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_89_jpg.rf.ac91460a22d4832d7aab8e34d023ecd3",
+      "base": "bookworm_part4_89_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_89_jpg.rf.ac91460a22d4832d7aab8e34d023ecd3.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_89_jpg.rf.ac91460a22d4832d7aab8e34d023ecd3.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 3,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_89_jpg.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bookworm_part4_234_jpg.rf.a8984404cc639ab332986b44e93627e8",
+      "base": "bookworm_part4_234_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bookworm_part4_234_jpg.rf.a8984404cc639ab332986b44e93627e8.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bookworm_part4_234_jpg.rf.a8984404cc639ab332986b44e93627e8.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_234_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bookworm_part4_359_jpg.rf.9e6d15fbb476517e4f2e1616205d34a9",
+      "base": "bookworm_part4_359_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bookworm_part4_359_jpg.rf.9e6d15fbb476517e4f2e1616205d34a9.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bookworm_part4_359_jpg.rf.9e6d15fbb476517e4f2e1616205d34a9.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_359_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_252_jpg.rf.913c102e5c80d9855a1a10c6190aa510",
+      "base": "bookworm_part4_252_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_252_jpg.rf.913c102e5c80d9855a1a10c6190aa510.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_252_jpg.rf.913c102e5c80d9855a1a10c6190aa510.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.421,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_252_jpg.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bookworm_part4_206_jpg.rf.b0e1cc4554c3bce278160093a946b080",
+      "base": "bookworm_part4_206_jpg",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bookworm_part4_206_jpg.rf.b0e1cc4554c3bce278160093a946b080.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bookworm_part4_206_jpg.rf.b0e1cc4554c3bce278160093a946b080.txt",
+      "classes": [
+        0,
+        1
+      ],
+      "kept_objects": 1,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__bookworm_part4_206_jpg.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "42_png.rf.d8820dee79d7f1796f49071ec0b2bc46",
+      "base": "42_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/42_png.rf.d8820dee79d7f1796f49071ec0b2bc46.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/42_png.rf.d8820dee79d7f1796f49071ec0b2bc46.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.422,
+      "group": "manga",
+      "dest": "manga__42_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili625932-0_png.rf.f590c778ee5277d06bbb571fd92f9112",
+      "base": "bilibili625932-0_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili625932-0_png.rf.f590c778ee5277d06bbb571fd92f9112.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili625932-0_png.rf.f590c778ee5277d06bbb571fd92f9112.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.578,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili625932-0_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili625932-4_png.rf.2945b3a783b9c482376860205ef22854",
+      "base": "bilibili625932-4_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili625932-4_png.rf.2945b3a783b9c482376860205ef22854.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili625932-4_png.rf.2945b3a783b9c482376860205ef22854.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.611,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili625932-4_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-10_png.rf.a5a5f75a1b48e3d20bb4e4a9861bfb48",
+      "base": "bilibili663072-10_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-10_png.rf.a5a5f75a1b48e3d20bb4e4a9861bfb48.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-10_png.rf.a5a5f75a1b48e3d20bb4e4a9861bfb48.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.513,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-10_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bilibili663072-20_png.rf.2e62866d02b86ef235fd92aac13e8c35",
+      "base": "bilibili663072-20_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bilibili663072-20_png.rf.2e62866d02b86ef235fd92aac13e8c35.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bilibili663072-20_png.rf.2e62866d02b86ef235fd92aac13e8c35.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 2.321,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-20_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili663072-22_png.rf.18eaa348da16ab82d18a776b0c6de6b9",
+      "base": "bilibili663072-22_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili663072-22_png.rf.18eaa348da16ab82d18a776b0c6de6b9.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili663072-22_png.rf.18eaa348da16ab82d18a776b0c6de6b9.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.612,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-22_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-15_png.rf.fc524e7df6c398fd515cf9884d1a5827",
+      "base": "bilibili726460-15_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-15_png.rf.fc524e7df6c398fd515cf9884d1a5827.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-15_png.rf.fc524e7df6c398fd515cf9884d1a5827.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.581,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-15_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili726460-20_png.rf.a4720d99fd397144e0a53c39c68bb2cf",
+      "base": "bilibili726460-20_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili726460-20_png.rf.a4720d99fd397144e0a53c39c68bb2cf.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili726460-20_png.rf.a4720d99fd397144e0a53c39c68bb2cf.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.759,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-20_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili726460-21_png.rf.8538f7047c3621d018c00cf4d64539e2",
+      "base": "bilibili726460-21_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili726460-21_png.rf.8538f7047c3621d018c00cf4d64539e2.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili726460-21_png.rf.8538f7047c3621d018c00cf4d64539e2.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.759,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-21_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-30_png.rf.6dceedf114d78bc6bd1b76ba9d6b2fb1",
+      "base": "bilibili726460-30_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-30_png.rf.6dceedf114d78bc6bd1b76ba9d6b2fb1.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-30_png.rf.6dceedf114d78bc6bd1b76ba9d6b2fb1.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.804,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-30_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-46_png.rf.73cea60a9293b703d3e441f40343e44f",
+      "base": "bilibili726460-46_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-46_png.rf.73cea60a9293b703d3e441f40343e44f.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-46_png.rf.73cea60a9293b703d3e441f40343e44f.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.61,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-46_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-7_png.rf.de558a9778b3e08d5c587beabeda6e1a",
+      "base": "bilibili726460-7_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-7_png.rf.de558a9778b3e08d5c587beabeda6e1a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-7_png.rf.de558a9778b3e08d5c587beabeda6e1a.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.724,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-7_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili726460-9_png.rf.cc36daafa3bc31b864d5f27698009574",
+      "base": "bilibili726460-9_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili726460-9_png.rf.cc36daafa3bc31b864d5f27698009574.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili726460-9_png.rf.cc36daafa3bc31b864d5f27698009574.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 3,
+      "aspect": 1.692,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-9_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili589738-4_png.rf.322162f1e57d93597b7f2ec33f921325",
+      "base": "bilibili589738-4_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili589738-4_png.rf.322162f1e57d93597b7f2ec33f921325.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili589738-4_png.rf.322162f1e57d93597b7f2ec33f921325.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 2.106,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili589738-4_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili625932-9_png.rf.e8f1e83a2ed2c1d72e5b6e5f3b54f61b",
+      "base": "bilibili625932-9_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili625932-9_png.rf.e8f1e83a2ed2c1d72e5b6e5f3b54f61b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili625932-9_png.rf.e8f1e83a2ed2c1d72e5b6e5f3b54f61b.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.624,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili625932-9_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-17_png.rf.fa7aa7eabe95ea7982cf547036613e99",
+      "base": "bilibili663072-17_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-17_png.rf.fa7aa7eabe95ea7982cf547036613e99.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-17_png.rf.fa7aa7eabe95ea7982cf547036613e99.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.442,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-17_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-1_png.rf.13d8ef84491692ef778e7a1c52132b54",
+      "base": "bilibili663072-1_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-1_png.rf.13d8ef84491692ef778e7a1c52132b54.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-1_png.rf.13d8ef84491692ef778e7a1c52132b54.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 2.039,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-1_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bilibili663072-26_png.rf.c7f1d35d32372f1f5975183c3a7e6aa6",
+      "base": "bilibili663072-26_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bilibili663072-26_png.rf.c7f1d35d32372f1f5975183c3a7e6aa6.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bilibili663072-26_png.rf.c7f1d35d32372f1f5975183c3a7e6aa6.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.497,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-26_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili663072-28_png.rf.4a8269fc27111bd993706152558846f7",
+      "base": "bilibili663072-28_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili663072-28_png.rf.4a8269fc27111bd993706152558846f7.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili663072-28_png.rf.4a8269fc27111bd993706152558846f7.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 2.503,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-28_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-33_png.rf.a7f912153fa759a08068613812ccf8fb",
+      "base": "bilibili663072-33_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-33_png.rf.a7f912153fa759a08068613812ccf8fb.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-33_png.rf.a7f912153fa759a08068613812ccf8fb.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.593,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-33_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili663072-36_png.rf.49a73df6128f4ba98faf36084f603411",
+      "base": "bilibili663072-36_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili663072-36_png.rf.49a73df6128f4ba98faf36084f603411.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili663072-36_png.rf.49a73df6128f4ba98faf36084f603411.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 2.083,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-36_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-7_png.rf.f984e96586cd5c358bd9fa9ef44e3771",
+      "base": "bilibili663072-7_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-7_png.rf.f984e96586cd5c358bd9fa9ef44e3771.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-7_png.rf.f984e96586cd5c358bd9fa9ef44e3771.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 2.417,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-7_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-8_png.rf.6aee6cc2a1e74b649f36a682df6a4fcc",
+      "base": "bilibili663072-8_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-8_png.rf.6aee6cc2a1e74b649f36a682df6a4fcc.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-8_png.rf.6aee6cc2a1e74b649f36a682df6a4fcc.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.999,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-8_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili663072-9_png.rf.831a4e22a1046b91c4d8de22a8709fc8",
+      "base": "bilibili663072-9_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili663072-9_png.rf.831a4e22a1046b91c4d8de22a8709fc8.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili663072-9_png.rf.831a4e22a1046b91c4d8de22a8709fc8.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.828,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-9_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-14_png.rf.54545d74693bdb1cc5e3a1f5a70aead7",
+      "base": "bilibili726460-14_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-14_png.rf.54545d74693bdb1cc5e3a1f5a70aead7.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-14_png.rf.54545d74693bdb1cc5e3a1f5a70aead7.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.692,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-14_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-19_png.rf.327f2e1ed2ce7ffaea6cc96b57d10fb4",
+      "base": "bilibili726460-19_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-19_png.rf.327f2e1ed2ce7ffaea6cc96b57d10fb4.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-19_png.rf.327f2e1ed2ce7ffaea6cc96b57d10fb4.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.759,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-19_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-31_png.rf.5b7f906c16a9ae9ab14905bb3cc7cc20",
+      "base": "bilibili726460-31_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-31_png.rf.5b7f906c16a9ae9ab14905bb3cc7cc20.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-31_png.rf.5b7f906c16a9ae9ab14905bb3cc7cc20.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.805,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-31_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili625932-8_png.rf.86bbfa02208155eac5d1269089d24e7e",
+      "base": "bilibili625932-8_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili625932-8_png.rf.86bbfa02208155eac5d1269089d24e7e.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili625932-8_png.rf.86bbfa02208155eac5d1269089d24e7e.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.688,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili625932-8_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-43_png.rf.598fb319d66951cfdc11f9e17cc32dbe",
+      "base": "bilibili726460-43_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-43_png.rf.598fb319d66951cfdc11f9e17cc32dbe.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-43_png.rf.598fb319d66951cfdc11f9e17cc32dbe.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.61,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-43_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili589738-9_png.rf.5cc0e8ff7b62a427d41870d745db90a5",
+      "base": "bilibili589738-9_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili589738-9_png.rf.5cc0e8ff7b62a427d41870d745db90a5.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili589738-9_png.rf.5cc0e8ff7b62a427d41870d745db90a5.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 2.503,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili589738-9_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-38_png.rf.1dcdd84d439e89cf1cdf12ae467aefb2",
+      "base": "bilibili726460-38_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-38_png.rf.1dcdd84d439e89cf1cdf12ae467aefb2.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-38_png.rf.1dcdd84d439e89cf1cdf12ae467aefb2.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.703,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-38_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili726460-10_png.rf.147a1fc3d7e9a36f622392ea6fd31cb9",
+      "base": "bilibili726460-10_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili726460-10_png.rf.147a1fc3d7e9a36f622392ea6fd31cb9.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili726460-10_png.rf.147a1fc3d7e9a36f622392ea6fd31cb9.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.692,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-10_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili625932-6_png.rf.adadcc64a92af9bf24e1b1f22a99ddc0",
+      "base": "bilibili625932-6_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili625932-6_png.rf.adadcc64a92af9bf24e1b1f22a99ddc0.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili625932-6_png.rf.adadcc64a92af9bf24e1b1f22a99ddc0.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.495,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili625932-6_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-47_png.rf.df162373eee5e9d465757ec128ccb54b",
+      "base": "bilibili726460-47_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-47_png.rf.df162373eee5e9d465757ec128ccb54b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-47_png.rf.df162373eee5e9d465757ec128ccb54b.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.703,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-47_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-28_png.rf.ad149f1b34b3dd204bcb51dc7810adfd",
+      "base": "bilibili726460-28_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-28_png.rf.ad149f1b34b3dd204bcb51dc7810adfd.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-28_png.rf.ad149f1b34b3dd204bcb51dc7810adfd.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.805,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-28_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili663072-19_png.rf.d648e6561016f61e62e60946564f8893",
+      "base": "bilibili663072-19_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili663072-19_png.rf.d648e6561016f61e62e60946564f8893.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili663072-19_png.rf.d648e6561016f61e62e60946564f8893.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.403,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-19_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili589738-2_png.rf.a70cd06283a3020903e04e4e5948e26c",
+      "base": "bilibili589738-2_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili589738-2_png.rf.a70cd06283a3020903e04e4e5948e26c.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili589738-2_png.rf.a70cd06283a3020903e04e4e5948e26c.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 2.107,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili589738-2_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-13_png.rf.c6bccc04850db5c34184a270bea20aa8",
+      "base": "bilibili726460-13_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-13_png.rf.c6bccc04850db5c34184a270bea20aa8.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-13_png.rf.c6bccc04850db5c34184a270bea20aa8.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.581,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-13_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili726460-34_png.rf.788cb9db939093e5daef2ecf37408180",
+      "base": "bilibili726460-34_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili726460-34_png.rf.788cb9db939093e5daef2ecf37408180.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili726460-34_png.rf.788cb9db939093e5daef2ecf37408180.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.692,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-34_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili589738-5_png.rf.26e226cea24dde037eb9c20e2623e96a",
+      "base": "bilibili589738-5_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili589738-5_png.rf.26e226cea24dde037eb9c20e2623e96a.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili589738-5_png.rf.26e226cea24dde037eb9c20e2623e96a.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.586,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili589738-5_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bilibili726460-5_png.rf.6a26ef6476acdf85ba44e69afec3c0a9",
+      "base": "bilibili726460-5_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bilibili726460-5_png.rf.6a26ef6476acdf85ba44e69afec3c0a9.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bilibili726460-5_png.rf.6a26ef6476acdf85ba44e69afec3c0a9.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.724,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-5_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-1_png.rf.c5c6e87ace15e19a9a1387672f7fdb26",
+      "base": "bilibili726460-1_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-1_png.rf.c5c6e87ace15e19a9a1387672f7fdb26.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-1_png.rf.c5c6e87ace15e19a9a1387672f7fdb26.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.581,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-1_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-48_png.rf.2aec32796ea02f2a44233fc46a387248",
+      "base": "bilibili726460-48_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-48_png.rf.2aec32796ea02f2a44233fc46a387248.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-48_png.rf.2aec32796ea02f2a44233fc46a387248.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 2,
+      "aspect": 1.704,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-48_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-0_png.rf.5b30acb02453ad0e15fac5076d22521b",
+      "base": "bilibili663072-0_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-0_png.rf.5b30acb02453ad0e15fac5076d22521b.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-0_png.rf.5b30acb02453ad0e15fac5076d22521b.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.464,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-0_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-29_png.rf.d090a09d6855d7ae97d944ebef81fd86",
+      "base": "bilibili663072-29_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-29_png.rf.d090a09d6855d7ae97d944ebef81fd86.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-29_png.rf.d090a09d6855d7ae97d944ebef81fd86.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.686,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-29_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili726460-40_png.rf.aff0be0cebd5670e7ab827c54c8e5349",
+      "base": "bilibili726460-40_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili726460-40_png.rf.aff0be0cebd5670e7ab827c54c8e5349.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili726460-40_png.rf.aff0be0cebd5670e7ab827c54c8e5349.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.703,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-40_png.jpg"
+    },
+    {
+      "split": "valid",
+      "stem": "bilibili663072-13_png.rf.9af1d2b0eae13bd61bc242c77e72ba10",
+      "base": "bilibili663072-13_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/images/bilibili663072-13_png.rf.9af1d2b0eae13bd61bc242c77e72ba10.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/valid/labels/bilibili663072-13_png.rf.9af1d2b0eae13bd61bc242c77e72ba10.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 2.181,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-13_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili663072-25_png.rf.bec3b4335e2dcaade104a476e2cbdc79",
+      "base": "bilibili663072-25_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili663072-25_png.rf.bec3b4335e2dcaade104a476e2cbdc79.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili663072-25_png.rf.bec3b4335e2dcaade104a476e2cbdc79.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.367,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-25_png.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "bilibili726460-12_png.rf.3c27c5c4b079358fee1180b2ce8a5074",
+      "base": "bilibili726460-12_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/images/bilibili726460-12_png.rf.3c27c5c4b079358fee1180b2ce8a5074.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/train/labels/bilibili726460-12_png.rf.3c27c5c4b079358fee1180b2ce8a5074.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.692,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-12_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bilibili726460-8_png.rf.da592a2762c5807323132f65645bdfe3",
+      "base": "bilibili726460-8_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bilibili726460-8_png.rf.da592a2762c5807323132f65645bdfe3.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bilibili726460-8_png.rf.da592a2762c5807323132f65645bdfe3.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.723,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili726460-8_png.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "bilibili663072-18_png.rf.a9c7dd2dda0a2e98cbae982802c98545",
+      "base": "bilibili663072-18_png",
+      "image": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/images/bilibili663072-18_png.rf.a9c7dd2dda0a2e98cbae982802c98545.jpg",
+      "label": "/Users/talo/Downloads/YOLO/manga-2-segmentation.v1i.yolov8/test/labels/bilibili663072-18_png.rf.a9c7dd2dda0a2e98cbae982802c98545.txt",
+      "classes": [
+        3
+      ],
+      "kept_objects": 1,
+      "aspect": 1.593,
+      "group": "manhwa",
+      "dest": "manhwa__bilibili663072-18_png.jpg"
+    }
+  ]
+}

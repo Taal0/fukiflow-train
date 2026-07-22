@@ -6,18 +6,28 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# Weights & Ultralytics downloads
+# Weights (pretrained + checkpoints)
 *.pt
 *.onnx
 *.engine
+weights/
 
 # Training / predict outputs
 runs/
 ultralytics/
 wandb/
 
-# Local datasets (large; keep license notes in git)
+# Local datasets & labeling blobs
 datasets/
+data/labeling/to_label/
+data/labeling/imports/
+data/labeling/exports/
+data/label-studio-data/
+data/raw/
+data/eval/**
+!data/eval/.gitkeep
+.venv-ls/
+.audit/
 
 .DS_Store
 .env

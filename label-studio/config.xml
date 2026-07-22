@@ -1,0 +1,6 @@
+<View>
+  <Image name="image" value="$image" zoom="true" zoomControl="true"/>
+  <PolygonLabels name="label" toName="image" strokeWidth="2" pointSize="small" opacity="0.4">
+    <Label value="bubble" background="#FF6B35"/>
+  </PolygonLabels>
+</View>
