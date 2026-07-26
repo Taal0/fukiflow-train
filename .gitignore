@@ -19,15 +19,9 @@ wandb/
 
 # Local datasets & labeling blobs
 datasets/
-data/labeling/to_label/
-data/labeling/imports/
-data/labeling/exports/
-data/label-studio-data/
-data/raw/
+labeling-wip/
 data/eval/**
 !data/eval/.gitkeep
-.venv-ls/
-.audit/
 
 .DS_Store
 .env

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Train bubble-seg from this repo only (outputs → runs/train/<name>/).
+# Train bubble-seg from this repo (outputs → runs/train/<name>/).
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -11,8 +11,9 @@ if [[ -f .venv/bin/activate ]]; then
 fi
 
 NAME="${NAME:-v1}"
-DATA="${DATA:-$ROOT/datasets/$NAME/dataset.yaml}"
-# v1 from COCO-seg pretrained; v2+ typically: MODEL=runs/train/v1/weights/best.pt
+# Default: datasets/bubble/<name>/dataset.yaml (v1, bubble-500, …)
+DATA="${DATA:-$ROOT/datasets/bubble/$NAME/dataset.yaml}"
+# v1 from COCO-seg pretrained; later: MODEL=runs/train/v1/weights/best.pt
 MODEL="${MODEL:-$ROOT/weights/yolov8n-seg.pt}"
 DEVICE="${DEVICE:-mps}"
 EPOCHS="${EPOCHS:-100}"
@@ -21,7 +22,7 @@ PROJECT="$ROOT/runs/train"
 
 if [[ ! -f "$DATA" ]]; then
   echo "Missing dataset yaml: $DATA" >&2
-  echo "Expected datasets/<name>/dataset.yaml (e.g. datasets/v1/)." >&2
+  echo "Expected datasets/bubble/<name>/dataset.yaml (e.g. datasets/bubble/v1)." >&2
   exit 1
 fi
 if [[ ! -f "$MODEL" ]]; then
